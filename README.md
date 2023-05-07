@@ -1,51 +1,53 @@
-# 这是什么
-这个项目可以构建一个简单的Web应用程序，与我的另一个仓库[UmaChat](https://github.com/kagari-bi/UmaChat)结合，可以与马娘进行对话。
+[中文文档看这里](https://github.com/kagari-bi/UmaChat_WebApi/blob/main/README-ZH.md)
 
-VITS推理部分基于https://github.com/Plachtaa/VITS-fast-fine-tuning ，非常感谢。
+# What is this
+This project allows you to build a simple Web application that, when combined with my other repository[UmaChat](https://github.com/kagari-bi/UmaChat)结合, enables you to have conversations with Uma Musume characters.
 
-# 如何使用
-1.克隆此仓库
+The VITS inference part is based on https://github.com/Plachtaa/VITS-fast-fine-tuning. Many thanks!
+
+# How to use
+1.Clone this repository
 ```
 git clone https://github.com/kagari-bi/UmaChat_WebApi.git
 ```
-2.在该项目的根目录下创建一个名为models的目录，从我的[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main)下载你想要的模型，并将其解压到models目录中
+2.Create a directory called 'models' in the root of the project, download the model you want from my[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main) and unzip it into the 'models' directory
 
-3.打开config_backup.ini，输入你的OpenAI账户的api_key、百度账户的appid和key（用于将Chatgpt的回应翻译成日语，然后使用vits进行推理），以及代理地址等。保存并关闭，然后将其重命名为config.ini
+3.Open config_backup.ini, enter your OpenAI account's api_key, Baidu account's appid and key (for translating ChatGPT's response into Japanese and then using VITS for inference), and the proxy address. Save and close it, then rename it to config.ini
 
-4.安装依赖项
+4.Install dependencies
 ```
 pip install -r requirements.txt
 ```
-5.运行Web应用程序
+5.Run the Web application
 ```
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-# 一个简单的示例
-在运行Web应用程序后，你可以尝试使用PostRequest.ipynb来了解Post表单和响应的格式
+# A simple example
+After running the Web application, you can try using PostRequest.ipynb to understand the format of Post forms and responses
 
-# 进阶用法
-虽然我预期是让此项目最终能够实现与全马娘的对话，但时间上无法保证。因此，你可以为自己喜欢的马娘在action_mapping_table、prompt这两个文件夹中自己追加必要的文件。并且训练对应马娘的vits模型，放到models里面。
+# Advanced usage
+Although I expect this project to eventually enable conversations with all Uma Musume characters, I cannot guarantee the timeframe. Therefore, you can add necessary files for your favorite Uma Musume characters in the action_mapping_table and prompt folders. You can also train the corresponding VITS model for each character and place it in the 'models' folder.
 
-具体做法我在之后应该会出一期视频教程。
+I will probably release a video tutorial on this later.
 
-# 目前的缺陷
-当前此项目的情感识别是利用ChatGPT实现的，但在不绑定支付方式的情况下，ChatGPT的API一分钟只能调用三次，而加入了情感识别的情况下，一次问答需要调用两次API，也就是平均要40s才能进行一次问答。
+# Current limitations
+Currently, emotion recognition in this project is implemented using ChatGPT. However, without binding a payment method, ChatGPT's API can only be called three times per minute. When emotion recognition is involved, each question and answer requires calling the API twice, meaning it takes an average of 40 seconds to perform a single question and answer.
 
-解决方法有三个：
-1. 使用两个ChatGPT的账号
-2. 降低提问的频率
-3. 绑定支付方式
+There are three solutions:
+1. Use two ChatGPT accounts
+2. Reduce the frequency of questions
+3. Bind a payment method
 
-个人不太推荐第三种方法，因为我目前还没优化连续对话的逻辑，只是单纯把对话记录和问题一起作为请求发送了，这会导致随着当前对话轮数的增加，单次问答的Token消耗急剧上升，总之就是很费钱。
+I do not recommend the third option personally, as I have not optimized the continuous conversation logic yet. Currently, the dialogue record and question are simply sent together as a request, which can cause a sharp increase in token consumption with the increasing number of dialogue turns, making it expensive.
 
-目前没有想到特别好的解决办法，或许今后我有可能会把情感识别的部分用另外的大型语言模型实现，但我不保证我一定会弄（老鸽子了属于是）
+I haven't come up with a particularly good solution yet. I might implement the emotion recognition part with another large language model in the future, but I can't guarantee that I will definitely do it (I'm quite the procrastinator).
 
-# 为这个项目出一份力
-为全马娘桌宠化出一份力（大雾）。事实上，在进阶用法部分让该项目也能适用于你喜欢的马娘之后，你可以通过pull requests或其他任何可能的方法，将你追加的文件提交到此项目中。
-### 这样做有什么好处
-1. 避免重复造轮子，效率大幅提高
-2. 没了
+# Contribute to this project
+Help bring Uma Musume characters to the desktop pet world (just kidding). In fact, after making the project applicable to your favorite Uma Musume characters in the advanced usage section, you can submit the additional files to this project via pull requests or any other possible methods.
+### Benefits of doing this
+1. Avoid reinventing the wheel, significantly improving efficiency
+2. That's it
 
-# 关于代理地址
-代理地址的形式形如http://127.0.0.1:1920 ,具体的查看方法根据使用软件的不同也有所不同，可以尝试搜索相关关键词，看网上能不能找到答案
+# About the proxy address
+The proxy address format looks like http://127.0.0.1:1920. The specific method to check the proxy address depends on the software you are using, and you can try searching for relevant keywords to see if you can find answers online.
