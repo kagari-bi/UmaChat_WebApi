@@ -21,9 +21,6 @@ pip install -r requirements.txt
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-# 一个简单的示例
-在运行Web应用程序后，你可以尝试使用PostRequest.ipynb来了解Post表单和响应的格式
-
 # 进阶用法
 虽然我预期是让此项目最终能够实现与全马娘的对话，但时间上无法保证。因此，你可以为自己喜欢的马娘在action_mapping_table、prompt这两个文件夹中自己追加必要的文件。并且训练对应马娘的vits模型，放到models里面。
 
