@@ -1,58 +1,51 @@
-[中文文档请点击这里](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/README_ZH.md)
-# VITS Fast Fine-tuning
-This repo will guide you to add your own character voices, or even your own voice, into existing VITS TTS model
-to make it able to do the following tasks in less than 1 hour:  
+# 这是什么
+这个项目可以构建一个简单的Web应用程序，与我的另一个仓库[UmaChat](https://github.com/kagari-bi/UmaChat)结合，可以与马娘进行对话。
 
-1. Many-to-many voice conversion between any characters you added & preset characters in the model.
-2. English, Japanese & Chinese Text-to-Speech synthesis with the characters you added & preset characters  
-  
+VITS推理部分基于https://github.com/Plachtaa/VITS-fast-fine-tuning ，非常感谢。
 
-Welcome to play around with the base models!  
-Chinese & English & Japanese：[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Plachta/VITS-Umamusume-voice-synthesizer) Author: Me  
-
-Chinese & Japanese：[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/sayashi/vits-uma-genshin-honkai) Author: [SayaSS](https://github.com/SayaSS)
-
-
-### Currently Supported Tasks:
-- [x] Clone character voice from 10+ short audios
-- [x] Clone character voice from long audio(s) >= 3 minutes (one audio should contain single speaker only)
-- [x] Clone character voice from videos(s) >= 3 minutes (one video should contain single speaker only)
-- [x] Clone character voice from BILIBILI video links (one video should contain single speaker only)
-
-### Currently Supported Characters for TTS & VC:
-- [x] Any character you wish as long as you have their voices!
-(Note that voice conversion can only be conducted between any two speakers in the model)
-
-
-
-## Fine-tuning
-It's recommended to perform fine-tuning on [Google Colab](https://colab.research.google.com/drive/1pn1xnFfdLK63gVXDwV4zCXfVeo8c-I-0?usp=sharing)
-because the original VITS has some dependencies that are difficult to configure.
-
-### How long does it take? 
-1. Install dependencies (3 min)
-2. Choose pretrained model to start. The detailed differences between them are described in [Colab Notebook](https://colab.research.google.com/drive/1pn1xnFfdLK63gVXDwV4zCXfVeo8c-I-0?usp=sharing)
-3. Upload the voice samples of the characters you wish to add，see [DATA.MD](https://github.com/Plachtaa/VITS-fast-fine-tuning/blob/main/DATA_EN.MD) for detailed uploading options.
-4. Start fine-tuning. Time taken varies from 20 minutes ~ 2 hours, depending on the number of voices you uploaded.
-
-
-## Inference or Usage (Currently support Windows only)
-0. Remember to download your fine-tuned model!
-1. Download the latest release
-2. Put your model & config file into the folder `inference`, which are named `G_latest.pth` and `finetune_speaker.json`, respectively.
-3. The file structure should be as follows:
+# 如何使用
+1.克隆此仓库
 ```
-inference
-├───inference.exe
-├───...
-├───finetune_speaker.json
-└───G_latest.pth
+git clone https://github.com/kagari-bi/UmaChat_WebApi.git
 ```
-4. run `inference.exe`, the browser should pop up automatically.
+2.在该项目的根目录下创建一个名为models的目录，从我的[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main)下载你想要的模型，并将其解压到models目录中
 
-## Use in MoeGoe
-0. Prepare downloaded model & config file, which are named `G_latest.pth` and `moegoe_config.json`, respectively.
-1. Follow [MoeGoe](https://github.com/CjangCjengh/MoeGoe) page instructions to install, configure path, and use.
+3.打开config_backup.ini，输入你的OpenAI账户的api_key、百度账户的appid和key（用于将Chatgpt的回应翻译成日语，然后使用vits进行推理），以及代理地址等。保存并关闭，然后将其重命名为config.ini
 
-## Looking for help?
-If you have any questions, please feel free to open an [issue](https://github.com/Plachtaa/VITS-fast-fine-tuning/issues/new) or join our [Discord](https://discord.gg/TcrjDFvm5A) server.
+4.安装依赖项
+```
+pip install -r requirements.txt
+```
+5.运行Web应用程序
+```
+uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```
+
+# 一个简单的示例
+在运行Web应用程序后，你可以尝试使用PostRequest.ipynb来了解Post表单和响应的格式
+
+# 进阶用法
+虽然我预期是让此项目最终能够实现与全马娘的对话，但时间上无法保证。因此，你可以为自己喜欢的马娘在action_mapping_table、prompt这两个文件夹中自己追加必要的文件。并且训练对应马娘的vits模型，放到models里面。
+
+具体做法我在之后应该会出一期视频教程。
+
+# 目前的缺陷
+当前此项目的情感识别是利用ChatGPT实现的，但在不绑定支付方式的情况下，ChatGPT的API一分钟只能调用三次，而加入了情感识别的情况下，一次问答需要调用两次API，也就是平均要40s才能进行一次问答。
+
+解决方法有三个：
+1. 使用两个ChatGPT的账号
+2. 降低提问的频率
+3. 绑定支付方式
+
+个人不太推荐第三种方法，因为我目前还没优化连续对话的逻辑，只是单纯把对话记录和问题一起作为请求发送了，这会导致随着当前对话轮数的增加，单次问答的Token消耗急剧上升，总之就是很费钱。
+
+目前没有想到特别好的解决办法，或许今后我有可能会把情感识别的部分用另外的大型语言模型实现，但我不保证我一定会弄（老鸽子了属于是）
+
+# 为这个项目出一份力
+为全马娘桌宠化出一份力（大雾）。事实上，在进阶用法部分让该项目也能适用于你喜欢的马娘之后，你可以通过pull requests或其他任何可能的方法，将你追加的文件提交到此项目中。
+### 这样做有什么好处
+1. 避免重复造轮子，效率大幅提高
+2. 没了
+
+# 关于代理地址
+代理地址的形式形如http://127.0.0.1:1920 ,具体的查看方法根据使用软件的不同也有所不同，可以尝试搜索相关关键词，看网上能不能找到答案
