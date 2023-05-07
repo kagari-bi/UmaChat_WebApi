@@ -23,8 +23,6 @@ pip install -r requirements.txt
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-# A simple example
-After running the Web application, you can try using PostRequest.ipynb to understand the format of Post forms and responses
 
 # Advanced usage
 Although I expect this project to eventually enable conversations with all Uma Musume characters, I cannot guarantee the timeframe. Therefore, you can add necessary files for your favorite Uma Musume characters in the action_mapping_table and prompt folders. You can also train the corresponding VITS model for each character and place it in the 'models' folder.
