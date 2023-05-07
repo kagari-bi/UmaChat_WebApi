@@ -10,7 +10,7 @@ The VITS inference part is based on https://github.com/Plachtaa/VITS-fast-fine-t
 ```
 git clone https://github.com/kagari-bi/UmaChat_WebApi.git
 ```
-2.Create a directory called 'models' in the root of the project, download the model you want from my[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main) and unzip it into the 'models' directory
+2.Create a directory called 'models' in the root of the project, download the model you want from my [HuggingFace repository](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main) and unzip it into the 'models' directory
 
 3.Open config_backup.ini, enter your OpenAI account's api_key, Baidu account's appid and key (for translating ChatGPT's response into Japanese and then using VITS for inference), and the proxy address. Save and close it, then rename it to config.ini
 
