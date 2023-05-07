@@ -1,7 +1,7 @@
 [中文文档看这里](https://github.com/kagari-bi/UmaChat_WebApi/blob/main/README-ZH.md)
 
 # What is this
-This project allows you to build a simple Web application that, when combined with my other repository[UmaChat](https://github.com/kagari-bi/UmaChat)结合, enables you to have conversations with Uma Musume characters.
+This project allows you to build a simple Web application that, when combined with my other repository[UmaChat](https://github.com/kagari-bi/UmaChat), enables you to have conversations with Uma Musume characters.
 
 The VITS inference part is based on https://github.com/Plachtaa/VITS-fast-fine-tuning. Many thanks!
 
