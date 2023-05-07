@@ -1,0 +1,69 @@
+待机动作：anm_eve_chr1022_00_idle01_loop
+感兴趣：anm_eve_chr1022_00_mot01_loop
+提建议：anm_eve_type00_advice01_01_loop
+气馁：anm_eve_type00_akire04_loop   KanasiD=0.7
+生气：anm_eve_type00_angry13_loop   IkariB=1
+鼓掌：anm_eve_type00_clap01_loop    DereB=1
+邀请：anm_eve_type00_come04_loop    DereB=1
+数数：anm_eve_type00_count01_loop
+哭泣：anm_eve_type00_cry06_loop            KanasiC=1                   Tear0_Ctrl(TearWeight)=1(Tear1和Tear2也是)
+燃起意志：anm_eve_type00_fight11_loop   IkariB=0.7
+充满斗志：anm_eve_type00_gatts09_loop   （这个好像自带表情，应该不用另外加载了）
+点赞：anm_eve_type00_good03_loop    DereB=1   
+自我防卫：anm_eve_type00_guard02_loop    KomariC=1（这个动作加载之后似乎会自动覆盖一个笑着的形态键上去，所以可能需要先清除所有形态键再加载）
+举手提问：anm_eve_type00_handsup02_loop     CloseB=1
+举手万岁：anm_eve_type00_handsup04_loop   CloseB=1
+高兴：anm_eve_type00_happy03_loop      WaraiB=1
+打招呼：anm_eve_type00_hello09_loop   WaraiB=1
+胜利的击掌：anm_eve_type00_hightouch05_loop    WaraiB=1
+拜托：anm_eve_type00_hope01_loop     KanasiB=0.5
+感觉很热：anm_eve_type00_hot01_loop
+饿了：anm_eve_type00_hungry01_loop
+按耐不住：anm_eve_type00_hurry01_loop     WaraiD=0.3
+想到点子：anm_eve_type00_idea02_loop      WaraiB=1
+准备战斗：anm_eve_type00_ikaku02_loop
+准备猜拳：anm_eve_type00_janken01_loop
+出石头：anm_eve_type00_janken02_loop
+出剪刀：anm_eve_type00_janken03_loop
+出布：anm_eve_type00_janken04_loop
+调戏：anm_eve_type00_joke06_loop
+雀跃：anm_eve_type00_joy07_loop    WaraiB=1
+飞吻：anm_eve_type00_kiss01_loop   CloseD=1
+得意：anm_eve_type00_koshiate_03_loop    WaraiA=1
+笑：anm_eve_type00_laugh_03_loop
+魔法：anm_eve_type00_magic04_01_loop     WinkL=1（但从一开始就闭半边眼睛不好看，在动作结束时再闭上才好看）
+交给我：anm_eve_type00_muneate11_01_loop  CloseA=1
+展示肌肉：anm_eve_type00_muscle01_loop
+禁止：anm_eve_type00_ng02_loop    IkariA=1
+エイ！エイ！オー！：anm_eve_type00_oh11_loop    WaraiB=1
+OK：anm_eve_type00_ok02_loop     WinkR=1
+身体不舒服：anm_eve_type00_pain07_loop  KanasiD=0.7
+剪刀手：anm_eve_type00_peace03_loop     WinkL=1
+手指指向某个地方：anm_eve_type00_point05_loop    WaraiB=1
+您先请：anm_eve_type00_point07_loop        DereA=0.5
+拳击：anm_eve_type00_punch03_loop        RunNormalA=1
+轻推：anm_eve_type00_push01_loop        WaraiC=1
+嘘：anm_eve_type00_quiet02_loop     
+请求：anm_eve_type00_request02_loop
+伤心：anm_eve_type00_sad02_loop        KanasiC=1
+举手礼：anm_eve_type00_salute02_loop
+四处张望：anm_eve_type00_see15_loop
+冷到打战：anm_eve_type00_shake02_01_loop
+受打击：anm_eve_type00_shock03_loop
+害羞：anm_eve_type00_shy07_loop       KomariB=0.5
+犯困：anm_eve_type00_sleep02_01_loop       EyeHalfA=1
+赌气：anm_eve_type00_soppo03_loop
+道歉：anm_eve_type00_sorry04_loop
+跺脚：anm_eve_type00_stomp02_loop
+停：anm_eve_type00_stop02_loop
+体操运动：anm_eve_type00_stretch26_loop
+啦啦队应援：anm_eve_type00_supporter07_loop
+惊讶：anm_eve_type00_surprise01_loop    OdorokiB=1
+左右晃动：anm_eve_type00_swing01_loop
+两手重叠：anm_eve_type00_tekumi01_loop
+思考：anm_eve_type00_think03_loop
+疲劳：anm_eve_type00_tired03_loop
+转圈：anm_eve_type00_turn02_loop
+走路：anm_eve_type00_walk03_loop
+走近：anm_eve_type00_walkin01_loop
+叫喊：anm_eve_type00_yell01_01_loop

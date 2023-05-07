@@ -1,0 +1,277 @@
+{
+  "待机动作": {
+    "动作名称": "anm_eve_chr1022_00_idle01_loop"
+  },
+  "感兴趣": {
+    "动作名称": "anm_eve_chr1022_00_mot01_loop"
+  },
+  "提建议": {
+    "动作名称": "anm_eve_type00_advice01_01_loop"
+  },
+  "气馁": {
+    "动作名称": "anm_eve_type00_akire04_loop",
+    "形态键": "KanasiD",
+    "权重": 0.7
+  },
+  "生气": {
+    "动作名称": "anm_eve_type00_angry13_loop",
+    "形态键": "IkariB",
+    "权重": 1.0
+  },
+  "鼓掌": {
+    "动作名称": "anm_eve_type00_clap01_loop",
+    "形态键": "DereB",
+    "权重": 1.0
+  },
+  "邀请": {
+    "动作名称": "anm_eve_type00_come04_loop",
+    "形态键": "DereB",
+    "权重": 1.0
+  },
+  "数数": {
+    "动作名称": "anm_eve_type00_count01_loop"
+  },
+  "哭泣": {
+    "动作名称": "anm_eve_type00_cry06_loop",
+    "形态键": "KanasiC",
+    "权重": 1.0
+  },
+  "燃起意志": {
+    "动作名称": "anm_eve_type00_fight11_loop",
+    "形态键": "IkariB",
+    "权重": 0.7
+  },
+  "充满斗志": {
+    "动作名称": "anm_eve_type00_gatts09_loop"
+  },
+  "点赞": {
+    "动作名称": "anm_eve_type00_good03_loop",
+    "形态键": "DereB",
+    "权重": 1.0
+  },
+  "自我防卫": {
+    "动作名称": "anm_eve_type00_guard02_loop",
+    "形态键": "KomariC",
+    "权重": 1.0
+  },
+  "举手提问": {
+    "动作名称": "anm_eve_type00_handsup02_loop",
+    "形态键": "CloseB",
+    "权重": 1.0
+  },
+  "举手万岁": {
+    "动作名称": "anm_eve_type00_handsup04_loop",
+    "形态键": "CloseB",
+    "权重": 1.0
+  },
+  "高兴": {
+    "动作名称": "anm_eve_type00_happy03_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "打招呼": {
+    "动作名称": "anm_eve_type00_hello09_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "胜利的击掌": {
+    "动作名称": "anm_eve_type00_hightouch05_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "拜托": {
+    "动作名称": "anm_eve_type00_hope01_loop",
+    "形态键": "KanasiB",
+    "权重": 0.5
+  },
+  "感觉很热": {
+    "动作名称": "anm_eve_type00_hot01_loop"
+  },
+  "饿了": {
+    "动作名称": "anm_eve_type00_hungry01_loop"
+  },
+  "按耐不住": {
+    "动作名称": "anm_eve_type00_hurry01_loop",
+    "形态键": "WaraiD",
+    "权重": 0.3
+  },
+  "想到点子": {
+    "动作名称": "anm_eve_type00_idea02_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "准备战斗": {
+    "动作名称": "anm_eve_type00_ikaku02_loop"
+  },
+  "准备猜拳": {
+    "动作名称": "anm_eve_type00_janken01_loop"
+  },
+  "出石头": {
+    "动作名称": "anm_eve_type00_janken02_loop"
+  },
+  "出剪刀": {
+    "动作名称": "anm_eve_type00_janken03_loop"
+  },
+  "出布": {
+    "动作名称": "anm_eve_type00_janken04_loop"
+  },
+  "调戏": {
+    "动作名称": "anm_eve_type00_joke06_loop"
+  },
+  "雀跃": {
+    "动作名称": "anm_eve_type00_joy07_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "飞吻": {
+    "动作名称": "anm_eve_type00_kiss01_loop",
+    "形态键": "CloseD",
+    "权重": 1.0
+  },
+  "得意": {
+    "动作名称": "anm_eve_type00_koshiate_03_loop",
+    "形态键": "WaraiA",
+    "权重": 1.0
+  },
+  "笑": {
+    "动作名称": "anm_eve_type00_laugh_03_loop"
+  },
+  "魔法": {
+    "动作名称": "anm_eve_type00_magic04_01_loop",
+    "形态键": "WinkL",
+    "权重": 1.0
+  },
+  "交给我": {
+    "动作名称": "anm_eve_type00_muneate11_01_loop",
+    "形态键": "CloseA",
+    "权重": 1.0
+  },
+  "展示肌肉": {
+    "动作名称": "anm_eve_type00_muscle01_loop"
+  },
+  "禁止": {
+    "动作名称": "anm_eve_type00_ng02_loop",
+    "形态键": "IkariA",
+    "权重": 1.0
+  },
+  "エイ！エイ！オー！": {
+    "动作名称": "anm_eve_type00_oh11_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "OK": {
+    "动作名称": "anm_eve_type00_ok02_loop",
+    "形态键": "WinkR",
+    "权重": 1.0
+  },
+  "身体不舒服": {
+    "动作名称": "anm_eve_type00_pain07_loop",
+    "形态键": "KanasiD",
+    "权重": 0.7
+  },
+  "剪刀手": {
+    "动作名称": "anm_eve_type00_peace03_loop",
+    "形态键": "WinkL",
+    "权重": 1.0
+  },
+  "手指指向某个地方": {
+    "动作名称": "anm_eve_type00_point05_loop",
+    "形态键": "WaraiB",
+    "权重": 1.0
+  },
+  "您先请": {
+    "动作名称": "anm_eve_type00_point07_loop",
+    "形态键": "DereA",
+    "权重": 0.5
+  },
+  "拳击": {
+    "动作名称": "anm_eve_type00_punch03_loop",
+    "形态键": "RunNormalA",
+    "权重": 1.0
+  },
+  "轻推": {
+    "动作名称": "anm_eve_type00_push01_loop",
+    "形态键": "WaraiC",
+    "权重": 1.0
+  },
+  "嘘": {
+    "动作名称": "anm_eve_type00_quiet02_loop"
+  },
+  "请求": {
+    "动作名称": "anm_eve_type00_request02_loop"
+  },
+  "伤心": {
+    "动作名称": "anm_eve_type00_sad02_loop",
+    "形态键": "KanasiC",
+    "权重": 1.0
+  },
+  "举手礼": {
+    "动作名称": "anm_eve_type00_salute02_loop"
+  },
+  "四处张望": {
+    "动作名称": "anm_eve_type00_see15_loop"
+  },
+  "冷到打战": {
+    "动作名称": "anm_eve_type00_shake02_01_loop"
+  },
+  "受打击": {
+    "动作名称": "anm_eve_type00_shock03_loop"
+  },
+  "害羞": {
+    "动作名称": "anm_eve_type00_shy07_loop",
+    "形态键": "KomariB",
+    "权重": 0.5
+  },
+  "犯困": {
+    "动作名称": "anm_eve_type00_sleep02_01_loop",
+    "形态键": "EyeHalfA",
+    "权重": 1.0
+  },
+  "赌气": {
+    "动作名称": "anm_eve_type00_soppo03_loop"
+  },
+  "道歉": {
+    "动作名称": "anm_eve_type00_sorry04_loop"
+  },
+  "跺脚": {
+    "动作名称": "anm_eve_type00_stomp02_loop"
+  },
+  "停": {
+    "动作名称": "anm_eve_type00_stop02_loop"
+  },
+  "体操运动": {
+    "动作名称": "anm_eve_type00_stretch26_loop"
+  },
+  "啦啦队应援": {
+    "动作名称": "anm_eve_type00_supporter07_loop"
+  },
+  "惊讶": {
+    "动作名称": "anm_eve_type00_surprise01_loop",
+    "形态键": "OdorokiB",
+    "权重": 1.0
+  },
+  "左右晃动": {
+    "动作名称": "anm_eve_type00_swing01_loop"
+  },
+  "两手重叠": {
+    "动作名称": "anm_eve_type00_tekumi01_loop"
+  },
+  "思考": {
+    "动作名称": "anm_eve_type00_think03_loop"
+  },
+  "疲劳": {
+    "动作名称": "anm_eve_type00_tired03_loop"
+  },
+  "转圈": {
+    "动作名称": "anm_eve_type00_turn02_loop"
+  },
+  "走路": {
+    "动作名称": "anm_eve_type00_walk03_loop"
+  },
+  "走近": {
+    "动作名称": "anm_eve_type00_walkin01_loop"
+  },
+  "叫喊": {
+    "动作名称": "anm_eve_type00_yell01_01_loop"
+  }
+}

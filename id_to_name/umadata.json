@@ -1,0 +1,751 @@
+[
+    {
+        "charaId": 1001,
+        "charaName": "スペシャルウィーク",
+        "charaCv": "和氣あず未",
+        "charaNameEnglish": "Special Week",
+        "charaCvEnglish": "Azumi Waki"
+    },
+    {
+        "charaId": 1002,
+        "charaName": "サイレンススズカ",
+        "charaCv": "高野麻里佳",
+        "charaNameEnglish": "Silence Suzuka",
+        "charaCvEnglish": "Marika Kouno"
+    },
+    {
+        "charaId": 1003,
+        "charaName": "トウカイテイオー",
+        "charaCv": "Machico",
+        "charaNameEnglish": "Tokai Teio",
+        "charaCvEnglish": "Machico"
+    },
+    {
+        "charaId": 1004,
+        "charaName": "マルゼンスキー",
+        "charaCv": "Lynn",
+        "charaNameEnglish": "Maruzensky",
+        "charaCvEnglish": "Lynn"
+    },
+    {
+        "charaId": 1005,
+        "charaName": "フジキセキ",
+        "charaCv": "松井恵理子",
+        "charaNameEnglish": "Fuji Kiseki",
+        "charaCvEnglish": "Eriko Matsui"
+    },
+    {
+        "charaId": 1006,
+        "charaName": "オグリキャップ",
+        "charaCv": "高柳知葉",
+        "charaNameEnglish": "Oguri Cap",
+        "charaCvEnglish": "Tomoyo Takayanagi"
+    },
+    {
+        "charaId": 1007,
+        "charaName": "ゴールドシップ",
+        "charaCv": "上田瞳",
+        "charaNameEnglish": "Gold Ship",
+        "charaCvEnglish": "Hitomi Ueda"
+    },
+    {
+        "charaId": 1008,
+        "charaName": "ウオッカ",
+        "charaCv": "大橋彩香",
+        "charaNameEnglish": "Vodka",
+        "charaCvEnglish": "Ayaka Oohashi"
+    },
+    {
+        "charaId": 1009,
+        "charaName": "ダイワスカーレット",
+        "charaCv": "木村千咲",
+        "charaNameEnglish": "Daiwa Scarlet",
+        "charaCvEnglish": "Chisa Kimura"
+    },
+    {
+        "charaId": 1010,
+        "charaName": "タイキシャトル",
+        "charaCv": "大坪由佳",
+        "charaNameEnglish": "Taiki Shuttle",
+        "charaCvEnglish": "Yuka Ootsubo"
+    },
+    {
+        "charaId": 1011,
+        "charaName": "グラスワンダー",
+        "charaCv": "前田玲奈",
+        "charaNameEnglish": "Grass Wonder",
+        "charaCvEnglish": "Rena Maeda"
+    },
+    {
+        "charaId": 1012,
+        "charaName": "ヒシアマゾン",
+        "charaCv": "巽悠衣子",
+        "charaNameEnglish": "Hishi Amazon",
+        "charaCvEnglish": "Yuiko Tatsumi"
+    },
+    {
+        "charaId": 1013,
+        "charaName": "メジロマックイーン",
+        "charaCv": "大西沙織",
+        "charaNameEnglish": "Mejiro McQueen",
+        "charaCvEnglish": "Saori Oonishi"
+    },
+    {
+        "charaId": 1014,
+        "charaName": "エルコンドルパサー",
+        "charaCv": "髙橋ミナミ",
+        "charaNameEnglish": "El Condor Pasa",
+        "charaCvEnglish": "Minami Takahashi"
+    },
+    {
+        "charaId": 1015,
+        "charaName": "テイエムオペラオー",
+        "charaCv": "徳井青空",
+        "charaNameEnglish": "TM Opera O",
+        "charaCvEnglish": "Sora Tokui"
+    },
+    {
+        "charaId": 1016,
+        "charaName": "ナリタブライアン",
+        "charaCv": "衣川里佳",
+        "charaNameEnglish": "Narita Brian",
+        "charaCvEnglish": "Rika Kinugawa"
+    },
+    {
+        "charaId": 1017,
+        "charaName": "シンボリルドルフ",
+        "charaCv": "田所あずさ",
+        "charaNameEnglish": "Symboli Rudolf",
+        "charaCvEnglish": "Azusa Tadokoro"
+    },
+    {
+        "charaId": 1018,
+        "charaName": "エアグルーヴ",
+        "charaCv": "青木瑠璃子",
+        "charaNameEnglish": "Air Groove",
+        "charaCvEnglish": "Ruriko Aoki"
+    },
+    {
+        "charaId": 1019,
+        "charaName": "アグネスデジタル",
+        "charaCv": "鈴木みのり",
+        "charaNameEnglish": "Agnes Digital",
+        "charaCvEnglish": "Minori Suzuki"
+    },
+    {
+        "charaId": 1020,
+        "charaName": "セイウンスカイ",
+        "charaCv": "鬼頭明里",
+        "charaNameEnglish": "Seiun Sky",
+        "charaCvEnglish": "Akari Kito"
+    },
+    {
+        "charaId": 1021,
+        "charaName": "タマモクロス",
+        "charaCv": "大空直美",
+        "charaNameEnglish": "Tamamo Cross",
+        "charaCvEnglish": "Naomi Oozora"
+    },
+    {
+        "charaId": 1022,
+        "charaName": "ファインモーション",
+        "charaCv": "橋本ちなみ",
+        "charaNameEnglish": "Fine Motion",
+        "charaCvEnglish": "Chinami Hashimoto"
+    },
+    {
+        "charaId": 1023,
+        "charaName": "ビワハヤヒデ",
+        "charaCv": "近藤唯",
+        "charaNameEnglish": "Biwa Hayahide",
+        "charaCvEnglish": "Yui Kondo"
+    },
+    {
+        "charaId": 1024,
+        "charaName": "マヤノトップガン",
+        "charaCv": "星谷美緒",
+        "charaNameEnglish": "Mayano Top Gun",
+        "charaCvEnglish": "Mio Hoshitani"
+    },
+    {
+        "charaId": 1025,
+        "charaName": "マンハッタンカフェ",
+        "charaCv": "小倉唯",
+        "charaNameEnglish": "Manhattan Cafe",
+        "charaCvEnglish": "Yui Ogura"
+    },
+    {
+        "charaId": 1026,
+        "charaName": "ミホノブルボン",
+        "charaCv": "長谷川育美",
+        "charaNameEnglish": "Mihono Bourbon",
+        "charaCvEnglish": "Ikumi Hasegawa"
+    },
+    {
+        "charaId": 1027,
+        "charaName": "メジロライアン",
+        "charaCv": "土師亜文",
+        "charaNameEnglish": "Mejiro Ryan",
+        "charaCvEnglish": "Afumi Hashi"
+    },
+    {
+        "charaId": 1028,
+        "charaName": "ヒシアケボノ",
+        "charaCv": "松嵜麗",
+        "charaNameEnglish": "Hishi Akebono",
+        "charaCvEnglish": "Rei Matsuzaki"
+    },
+    {
+        "charaId": 1029,
+        "charaName": "ユキノビジン",
+        "charaCv": "山本希望",
+        "charaNameEnglish": "Yukino Bijin",
+        "charaCvEnglish": "Nozomi Yamamoto"
+    },
+    {
+        "charaId": 1030,
+        "charaName": "ライスシャワー",
+        "charaCv": "石見舞菜香",
+        "charaNameEnglish": "Rice Shower",
+        "charaCvEnglish": "Manaka Iwami"
+    },
+    {
+        "charaId": 1031,
+        "charaName": "アイネスフウジン",
+        "charaCv": "長江里加",
+        "charaNameEnglish": "Ines Fujin",
+        "charaCvEnglish": "Nagae Rika"
+    },
+    {
+        "charaId": 1032,
+        "charaName": "アグネスタキオン",
+        "charaCv": "上坂すみれ",
+        "charaNameEnglish": "Agnes Tachyon",
+        "charaCvEnglish": "Sumire Uesaka"
+    },
+    {
+        "charaId": 1033,
+        "charaName": "アドマイヤベガ",
+        "charaCv": "咲々木瞳",
+        "charaNameEnglish": "Admire Vega",
+        "charaCvEnglish": "Hitomi Sasaki"
+    },
+    {
+        "charaId": 1034,
+        "charaName": "イナリワン",
+        "charaCv": "井上遥乃",
+        "charaNameEnglish": "Inari One",
+        "charaCvEnglish": "Haruno Inoue"
+    },
+    {
+        "charaId": 1035,
+        "charaName": "ウイニングチケット",
+        "charaCv": "渡部優衣",
+        "charaNameEnglish": "Winning Ticket",
+        "charaCvEnglish": "Yui Watanabe"
+    },
+    {
+        "charaId": 1036,
+        "charaName": "エアシャカール",
+        "charaCv": "津田美波",
+        "charaNameEnglish": "Air Shakur",
+        "charaCvEnglish": "Minami Tsunda"
+    },
+    {
+        "charaId": 1037,
+        "charaName": "エイシンフラッシュ",
+        "charaCv": "藤野彩水",
+        "charaNameEnglish": "Eishin Flash",
+        "charaCvEnglish": "Ayami Fujino"
+    },
+    {
+        "charaId": 1038,
+        "charaName": "カレンチャン",
+        "charaCv": "篠原侑",
+        "charaNameEnglish": "Curren Chan",
+        "charaCvEnglish": "Yuu Sasahara"
+    },
+    {
+        "charaId": 1039,
+        "charaName": "カワカミプリンセス",
+        "charaCv": "高橋花林",
+        "charaNameEnglish": "Kawakami Princess",
+        "charaCvEnglish": "Karin Takahashi"
+    },
+    {
+        "charaId": 1040,
+        "charaName": "ゴールドシチー",
+        "charaCv": "香坂さき",
+        "charaNameEnglish": "Gold City",
+        "charaCvEnglish": "Saki Kosaka"
+    },
+    {
+        "charaId": 1041,
+        "charaName": "サクラバクシンオー",
+        "charaCv": "三澤紗千香",
+        "charaNameEnglish": "Sakura Bakushin O",
+        "charaCvEnglish": "Sachika Misawa"
+    },
+    {
+        "charaId": 1042,
+        "charaName": "シーキングザパール",
+        "charaCv": "福原綾香",
+        "charaNameEnglish": "Seeking the Pearl",
+        "charaCvEnglish": "Ayaka Fukuhara"
+    },
+    {
+        "charaId": 1043,
+        "charaName": "シンコウウインディ",
+        "charaCv": "高田憂希",
+        "charaNameEnglish": "Shinko Windy",
+        "charaCvEnglish": "Yuuki Takada"
+    },
+    {
+        "charaId": 1044,
+        "charaName": "スイープトウショウ",
+        "charaCv": "杉浦しおり",
+        "charaNameEnglish": "Sweep Tosho",
+        "charaCvEnglish": "Shiori Sugiura"
+    },
+    {
+        "charaId": 1045,
+        "charaName": "スーパークリーク",
+        "charaCv": "優木かな",
+        "charaNameEnglish": "Super Creek",
+        "charaCvEnglish": "Kana Yuuki"
+    },
+    {
+        "charaId": 1046,
+        "charaName": "スマートファルコン",
+        "charaCv": "大和田仁美",
+        "charaNameEnglish": "Smart Falcon",
+        "charaCvEnglish": "Hitomi Oowada"
+    },
+    {
+        "charaId": 1047,
+        "charaName": "ゼンノロブロイ",
+        "charaCv": "照井春佳",
+        "charaNameEnglish": "Zenno Rob Roy",
+        "charaCvEnglish": "Haruka Terui"
+    },
+    {
+        "charaId": 1048,
+        "charaName": "トーセンジョーダン",
+        "charaCv": "鈴木絵理",
+        "charaNameEnglish": "Tosen Jordan",
+        "charaCvEnglish": "Eri Suzuki"
+    },
+    {
+        "charaId": 1049,
+        "charaName": "ナカヤマフェスタ",
+        "charaCv": "下地紫野",
+        "charaNameEnglish": "Nakayama Festa",
+        "charaCvEnglish": "Shino Shimoji"
+    },
+    {
+        "charaId": 1050,
+        "charaName": "ナリタタイシン",
+        "charaCv": "渡部恵子",
+        "charaNameEnglish": "Narita Taishin",
+        "charaCvEnglish": "Keiko Watanabe"
+    },
+    {
+        "charaId": 1051,
+        "charaName": "ニシノフラワー",
+        "charaCv": "河井晴菜",
+        "charaNameEnglish": "Nishino Flower",
+        "charaCvEnglish": "Haruna Kawai"
+    },
+    {
+        "charaId": 1052,
+        "charaName": "ハルウララ",
+        "charaCv": "首藤志奈",
+        "charaNameEnglish": "Haru Urara",
+        "charaCvEnglish": "Yukina Shutou"
+    },
+    {
+        "charaId": 1053,
+        "charaName": "バンブーメモリー",
+        "charaCv": "藍原ことみ",
+        "charaNameEnglish": "Bamboo Memory",
+        "charaCvEnglish": "Kotomi Aihara"
+    },
+    {
+        "charaId": 1054,
+        "charaName": "ビコーペガサス",
+        "charaCv": "田中あいみ",
+        "charaNameEnglish": "Biko Pegasus",
+        "charaCvEnglish": "Aimi Tanaka"
+    },
+    {
+        "charaId": 1055,
+        "charaName": "マーベラスサンデー",
+        "charaCv": "三宅麻理恵",
+        "charaNameEnglish": "Marvelous Sunday",
+        "charaCvEnglish": "Marie Miyake"
+    },
+    {
+        "charaId": 1056,
+        "charaName": "マチカネフクキタル",
+        "charaCv": "新田ひより",
+        "charaNameEnglish": "Matikanefukukitaru",
+        "charaCvEnglish": "Hiyori Nitta"
+    },
+    {
+        "charaId": 1057,
+        "charaName": "ミスターシービー",
+        "charaCv": "天海由梨奈",
+        "charaNameEnglish": "Mr. C.B.",
+        "charaCvEnglish": "Amami Yurina"
+    },
+    {
+        "charaId": 1058,
+        "charaName": "メイショウドトウ",
+        "charaCv": "和多田美咲",
+        "charaNameEnglish": "Meisho Doto",
+        "charaCvEnglish": "Misaki Watada"
+    },
+    {
+        "charaId": 1059,
+        "charaName": "メジロドーベル",
+        "charaCv": "久保田ひかり",
+        "charaNameEnglish": "Mejiro Dober",
+        "charaCvEnglish": "Hikari Kubota"
+    },
+    {
+        "charaId": 1060,
+        "charaName": "ナイスネイチャ",
+        "charaCv": "前田佳織里",
+        "charaNameEnglish": "Nice Nature",
+        "charaCvEnglish": "Kaori Maeda"
+    },
+    {
+        "charaId": 1061,
+        "charaName": "キングヘイロー",
+        "charaCv": "佐伯伊織",
+        "charaNameEnglish": "King Halo",
+        "charaCvEnglish": "Iori Saeki"
+    },
+    {
+        "charaId": 1062,
+        "charaName": "マチカネタンホイザ",
+        "charaCv": "遠野ひかる",
+        "charaNameEnglish": "Matikanetannhauser",
+        "charaCvEnglish": "Hikaru Tono"
+    },
+    {
+        "charaId": 1063,
+        "charaName": "イクノディクタス",
+        "charaCv": "田澤茉純",
+        "charaNameEnglish": "Ikuno Dictus",
+        "charaCvEnglish": "Masumi Tazawa"
+    },
+    {
+        "charaId": 1064,
+        "charaName": "メジロパーマー",
+        "charaCv": "のぐちゆり",
+        "charaNameEnglish": "Mejiro Palmer",
+        "charaCvEnglish": "Yuri Noguchi"
+    },
+    {
+        "charaId": 1065,
+        "charaName": "ダイタクヘリオス",
+        "charaCv": "山根綺",
+        "charaNameEnglish": "Daitaku Helios",
+        "charaCvEnglish": "Aya Yamane"
+    },
+    {
+        "charaId": 1066,
+        "charaName": "ツインターボ",
+        "charaCv": "花井美春",
+        "charaNameEnglish": "Twin Turbo",
+        "charaCvEnglish": "Miharu Hanai"
+    },
+    {
+        "charaId": 1067,
+        "charaName": "サトノダイヤモンド",
+        "charaCv": "立花日菜",
+        "charaNameEnglish": "Satono Diamond",
+        "charaCvEnglish": "Hina Tachibana"
+    },
+    {
+        "charaId": 1068,
+        "charaName": "キタサンブラック",
+        "charaCv": "矢野妃菜喜",
+        "charaNameEnglish": "Kitasan Black",
+        "charaCvEnglish": "Hinaki Yano"
+    },
+    {
+        "charaId": 1069,
+        "charaName": "サクラチヨノオー",
+        "charaCv": "野口瑠璃子",
+        "charaNameEnglish": "Sakura Chiyono O",
+        "charaCvEnglish": "Ruriko Noguchi"
+    },
+    {
+        "charaId": 1070,
+        "charaName": "シリウスシンボリ",
+        "charaCv": "ファイルーズあい",
+        "charaNameEnglish": "Sirius Symboli",
+        "charaCvEnglish": "Ai Fairouz"
+    },
+    {
+        "charaId": 1071,
+        "charaName": "メジロアルダン",
+        "charaCv": "会沢紗弥",
+        "charaNameEnglish": "Mejiro Ardan",
+        "charaCvEnglish": "Saya Aizawa"
+    },
+    {
+        "charaId": 1072,
+        "charaName": "ヤエノムテキ",
+        "charaCv": "日原あゆみ",
+        "charaNameEnglish": "Yaeno Muteki",
+        "charaCvEnglish": "Ayumi Hinohara"
+    },
+    {
+        "charaId": 1073,
+        "charaName": "ツルマルツヨシ",
+        "charaCv": "青山吉能",
+        "charaNameEnglish": "Tsurumaru Tsuyoshi",
+        "charaCvEnglish": "Yoshino Aoyama"
+    },
+    {
+        "charaId": 1074,
+        "charaName": "メジロブライト",
+        "charaCv": "大西綺華",
+        "charaNameEnglish": "Mejiro Bright",
+        "charaCvEnglish": "Ayaka Oonishi"
+    },
+    {
+        "charaId": 1076,
+        "charaName": "サクラローレル",
+        "charaCv": "真野美月",
+        "charaNameEnglish": "Sakura Laurel",
+        "charaCvEnglish": "Mizuki Mano"
+    },
+    {
+        "charaId": 1077,
+        "charaName": "ナリタトップロード",
+        "charaCv": "中村カンナ",
+        "charaNameEnglish": "Narita Top Road",
+        "charaCvEnglish": "Kanna Nakamura"
+    },
+    {
+        "charaId": 1078,
+        "charaName": "ヤマニンゼファー",
+        "charaCv": "今泉りおな",
+        "charaNameEnglish": "Yamanin Zephyr",
+        "charaCvEnglish": "Riona Imaizumi"
+    },
+    {
+        "charaId": 1083,
+        "charaName": "シンボリクリスエス",
+        "charaCv": "春川芽生",
+        "charaNameEnglish": "Symboli Kris S",
+        "charaCvEnglish": "Meiku Harukawa"
+    },
+    {
+        "charaId": 1084,
+        "charaName": "タニノギムレット",
+        "charaCv": "松岡美里",
+        "charaNameEnglish": "Tanino Gimlet",
+        "charaCvEnglish": "Misato Matsuoka"
+    },
+    {
+        "charaId": 1085,
+        "charaName": "ダイイチルビー",
+        "charaCv": "礒部花凜",
+        "charaNameEnglish": "Daiichi Ruby",
+        "charaCvEnglish": "Karin Isobe"
+    },
+    {
+        "charaId": 1086,
+        "charaName": "メジロラモーヌ",
+        "charaCv": "東山奈央",
+        "charaNameEnglish": "Mejiro Ramonu",
+        "charaCvEnglish": "Touyama Nao"
+    },
+    {
+        "charaId": 1087,
+        "charaName": "アストンマーチャン",
+        "charaCv": "井上ほの花",
+        "charaNameEnglish": "Aston Machan",
+        "charaCvEnglish": "Honoka Inoue"
+    },
+    {
+        "charaId": 1088,
+        "charaName": "サトノクラウン",
+        "charaCv": "鈴代紗弓",
+        "charaNameEnglish": "Satono Crown",
+        "charaCvEnglish": "Suzushiro Sayumi"
+    },
+    {
+        "charaId": 1089,
+        "charaName": "シュヴァルグラン",
+        "charaCv": "夏吉ゆうこ",
+        "charaNameEnglish": "Cheval Grand",
+        "charaCvEnglish": "Natsuyoshi Yuuko"
+    },
+    {
+        "charaId": 1093,
+        "charaName": "ケイエスミラクル",
+        "charaCv": "佐藤日向",
+        "charaNameEnglish": "K.S. Miracle",
+        "charaCvEnglish": "Satou Hinata"
+    },
+    {
+        "charaId": 1094,
+        "charaName": "ジャングルポケット",
+        "charaCv": "藤本侑里",
+        "charaNameEnglish": "Jungle Pocket",
+        "charaCvEnglish": "Fujimoto Yuri"
+    },
+    {
+        "charaId": 1098,
+        "charaName": "コパノリッキー",
+        "charaCv": "稲垣好",
+        "charaNameEnglish": "Copano Rickey",
+        "charaCvEnglish": "Konomi Inagaki"
+    },
+    {
+        "charaId": 1099,
+        "charaName": "ホッコータルマエ",
+        "charaCv": "菊池紗矢香",
+        "charaNameEnglish": "Hokko Tarumae",
+        "charaCvEnglish": "Kikuchi Sayaka"
+    },
+    {
+        "charaId": 1100,
+        "charaName": "ワンダーアキュート",
+        "charaCv": "須藤叶希",
+        "charaNameEnglish": "Wonder Acute",
+        "charaCvEnglish": "Kanoko Sudo"
+    },
+    {
+        "charaId": 1104,
+        "charaName": "カツラギエース",
+        "charaCv": "藤原夏海",
+        "charaNameEnglish": "Katsuragi Ace",
+        "charaCvEnglish": "Fujiwara Natsumi"
+    },
+    {
+        "charaId": 1105,
+        "charaName": "ネオユニヴァース",
+        "charaCv": "白石晴香",
+        "charaNameEnglish": "Neo Universe",
+        "charaCvEnglish": "Shiraishi Haruka"
+    },
+    {
+        "charaId": 1106,
+        "charaName": "ヒシミラクル",
+        "charaCv": "春日さくら",
+        "charaNameEnglish": null,
+        "charaCvEnglish": null
+    },
+    {
+        "charaId": 1107,
+        "charaName": "タップダンスシチー",
+        "charaCv": "篠田みなみ",
+        "charaNameEnglish": "Tap Dance City",
+        "charaCvEnglish": "Shinoda Minami"
+    },
+    {
+        "charaId": 2001,
+        "charaName": "ハッピーミーク",
+        "charaCv": "吉咲みゆ",
+        "charaNameEnglish": "Happy Meek",
+        "charaCvEnglish": "Miyu Yoshizaki"
+    },
+    {
+        "charaId": 2002,
+        "charaName": "ビターグラッセ",
+        "charaCv": "島田愛野",
+        "charaNameEnglish": "Bitter Glasse",
+        "charaCvEnglish": "Aino Shimada"
+    },
+    {
+        "charaId": 2003,
+        "charaName": "リトルココン",
+        "charaCv": "白砂沙帆",
+        "charaNameEnglish": "Little Cocon",
+        "charaCvEnglish": "Saho Shirasu"
+    },
+    {
+        "charaId": 2004,
+        "charaName": "モンジュー",
+        "charaCv": "櫻庭有紗",
+        "charaNameEnglish": "Montjeu",
+        "charaCvEnglish": "Sakuraba Arisa"
+    },
+    {
+        "charaId": 9001,
+        "charaName": "駿川たづな",
+        "charaCv": "藤井ゆきよ",
+        "charaNameEnglish": "Hayakawa Tazuna",
+        "charaCvEnglish": "Fujii Yukiyo"
+    },
+    {
+        "charaId": 9002,
+        "charaName": "秋川理事長",
+        "charaCv": "水橋かおり",
+        "charaNameEnglish": "Chairwoman Akikawa",
+        "charaCvEnglish": "Mizuhashi Kaori"
+    },
+    {
+        "charaId": 9003,
+        "charaName": "乙名史記者",
+        "charaCv": "陶山恵実里",
+        "charaNameEnglish": "Otonashi Etsuko",
+        "charaCvEnglish": "Suyama Emiri"
+    },
+    {
+        "charaId": 9004,
+        "charaName": "桐生院トレーナー",
+        "charaCv": "岡咲美保",
+        "charaNameEnglish": "Kiryuin Aoi",
+        "charaCvEnglish": "Okasaki Miho"
+    },
+    {
+        "charaId": 9005,
+        "charaName": "安心沢刺々美",
+        "charaCv": "井上喜久子",
+        "charaNameEnglish": "Anshinzawa Sasami",
+        "charaCvEnglish": "Inoue Kikuko"
+    },
+    {
+        "charaId": 9006,
+        "charaName": "樫本理子",
+        "charaCv": "朴璐美",
+        "charaNameEnglish": "Kashimoto Riko",
+        "charaCvEnglish": "Park Romi"
+    },
+    {
+        "charaId": 9008,
+        "charaName": "ライトハロー",
+        "charaCv": "植田佳奈",
+        "charaNameEnglish": "Light Hello",
+        "charaCvEnglish": "Kana Ueda"
+    },
+    {
+        "charaId": 9040,
+        "charaName": "ダーレーアラビアン",
+        "charaCv": "進藤尚美",
+        "charaNameEnglish": "Darley Arabian",
+        "charaCvEnglish": "Shindou Naomi"
+    },
+    {
+        "charaId": 9041,
+        "charaName": "ゴドルフィンバルブ",
+        "charaCv": "佐藤聡美",
+        "charaNameEnglish": "Godolphin Barb",
+        "charaCvEnglish": "Satou Satomi"
+    },
+    {
+        "charaId": 9042,
+        "charaName": "バイアリーターク",
+        "charaCv": "斎賀みつき",
+        "charaNameEnglish": "Byerley Turk",
+        "charaCvEnglish": "Saiga Mitsuki"
+    }
+]
