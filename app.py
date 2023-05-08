@@ -209,7 +209,7 @@ async def chat(data: InputData):
     {"role": "system", "content": emotion_classification},
     {"role": "user", "content": "提问者："+user_question+"\n回答者："+assistant_answer},
   ],
-        temperature=1, # 可调节输出随机性的参数
+        temperature=2, # 可调节输出随机性的参数
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
