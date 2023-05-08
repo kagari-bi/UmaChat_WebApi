@@ -234,9 +234,13 @@ async def chat(data: InputData):
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["中文自称"], appellation_dict[charaname]["日文自称"])
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["对玩家的中文称呼"], appellation_dict[charaname]["对玩家的日文称呼"])
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["中文的打招呼方式"], appellation_dict[charaname]["日文的打招呼方式"])
+            assistant_answer = assistant_answer.replace("？","[？]")
             assistant_answer = translate_baidu(APPID, key, assistant_answer)
+            assistant_answer = assistant_answer.replace("[？]","？")
         else:
-        	assistant_answer = translate_baidu(APPID, key, assistant_answer)
+            assistant_answer = assistant_answer.replace("？","[？]")
+            assistant_answer = translate_baidu(APPID, key, assistant_answer)
+            assistant_answer = assistant_answer.replace("[？]","？")
         audio_response = assistant_answer
     else:
         text_response = assistant_answer
