@@ -30,6 +30,7 @@ Although I expect this project to eventually enable conversations with all Uma M
 I will probably release a video tutorial on this later.
 
 # Current limitations
+### Emotion Recognition Related
 Currently, emotion recognition in this project is implemented using ChatGPT. However, without binding a payment method, ChatGPT's API can only be called three times per minute. When emotion recognition is involved, each question and answer requires calling the API twice, meaning it takes an average of 40 seconds to perform a single question and answer.
 
 There are three solutions:
@@ -40,6 +41,12 @@ There are three solutions:
 I do not recommend the third option personally, as I have not optimized the continuous conversation logic yet. Currently, the dialogue record and question are simply sent together as a request, which can cause a sharp increase in token consumption with the increasing number of dialogue turns, making it expensive.
 
 I haven't come up with a particularly good solution yet. I might implement the emotion recognition part with another large language model in the future, but I can't guarantee that I will definitely do it (I'm quite the procrastinator).
+### Translation Related
+The current Q&A logic involves obtaining responses from ChatGPT, translating them into Japanese using Baidu Translate, then using Vits to convert the text into audio. Finally, the text and audio content are combined as the response content.
+
+The problem with this approach is that it is difficult to reproduce certain expressions with character-specific features (such as "ふふ" and "ごきげんよう" of FineMotion). One possible solution is to have ChatGPT provide a Japanese response, then call the translation interface to translate it into Chinese as the returned text.
+
+However, Baidu Translate's results can still be awkward in some cases. If you want to be nitpicky, you might need to use a large language model... I'm currently exploring better solutions.
 
 # Contribute to this project
 Help bring Uma Musume characters to the desktop pet world (just kidding). In fact, after making the project applicable to your favorite Uma Musume characters in the advanced usage section, you can submit the additional files to this project via pull requests or any other possible methods.
