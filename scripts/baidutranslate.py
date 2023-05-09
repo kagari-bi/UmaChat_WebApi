@@ -10,7 +10,7 @@ def MD5(str):
     return token
 
 def translate_baidu(APPID, key, q):
-    salt = '143566028832'
+    salt = '143566999992'
     original_langrage = 'zh'
     to_langrage = 'jp'
 
@@ -18,6 +18,7 @@ def translate_baidu(APPID, key, q):
 
     sign = MD5(APPID + q + salt + key)
     para = {"q": q, "from": original_langrage, "to": to_langrage, "appid": APPID, "salt": salt, "sign": sign}
+
 
     response = requests.get(url, params=para)
     # 结果中文是Unicode，需要进行解码

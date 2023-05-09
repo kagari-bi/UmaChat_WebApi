@@ -39,79 +39,6 @@ length_scale = 1
 
 app = FastAPI()
 
-emotion_classification="""请帮我分析当前的对话发生时，回答者的状态。只需要告诉我状态，不需要任何解释和标点符号。可供选择的状态如下：
-待机动作
-感兴趣
-提建议
-气馁
-生气
-鼓掌
-邀请
-数数
-哭泣
-燃起意志
-充满斗志
-点赞
-自我防卫
-举手提问
-举手万岁
-高兴
-打招呼
-胜利的击掌
-拜托
-感觉很热
-饿了
-按耐不住
-想到点子
-准备战斗
-准备猜拳
-出石头
-出剪刀
-出布
-调戏
-雀跃
-飞吻
-得意
-笑
-魔法
-交给我
-展示肌肉
-禁止
-エイ！エイ！オー！
-OK
-身体不舒服
-剪刀手
-手指指向某个地方
-您先请
-拳击
-轻推
-嘘
-请求
-伤心
-举手礼
-四处张望
-冷到打战
-受打击
-害羞
-犯困
-赌气
-道歉
-跺脚
-停
-体操运动
-啦啦队应援
-惊讶
-左右晃动
-两手重叠
-思考
-疲劳
-转圈
-走路
-走近
-叫喊"""
-
-
-
 class InputData(BaseModel):
     user_id: str
     speaker_id: str
@@ -163,6 +90,18 @@ async def chat(data: InputData):
     speaker_id = data.speaker_id
     chara_id = int(speaker_id.split("_")[1].strip())
     charaname = find_chara_name_english_by_id(chara_id,chara_list)
+    
+    emotion_classification="请帮我分析当前的对话发生时，回答者的状态。只需要告诉我状态，不需要任何解释和标点符号。可供选择的状态如下："
+    if os.path.exists(f"action_mapping_table/{charaname}.json"):
+        filepath = f"action_mapping_table/{charaname}.json"
+    else:
+        filepath = "action_mapping_table/example.json"
+    with open(filepath, "r", encoding="utf-8") as file:
+        emotions_dict = json.load(file)
+    # 遍历字典中的键并拼接到字符串后面
+    for i in emotions_dict.keys():
+        emotion_classification = emotion_classification+"\n"+i
+
     
     if os.path.exists(f"prompt/{charaname}.txt"):
         with open(f"prompt/{charaname}.txt", 'r', encoding='utf-8') as file:
@@ -216,12 +155,6 @@ async def chat(data: InputData):
         max_tokens=50, # 限制生成回答的最大长度
     )
     emotion = classify_emotion(emotion_classification, emotion_response.choices[0].message.content)
-    if os.path.exists(f"action_mapping_table/{charaname}.json"):
-        filepath = f"action_mapping_table/{charaname}.json"
-    else:
-        filepath = "action_mapping_table/example.json"
-    with open(filepath, "r", encoding="utf-8") as file:
-        emotions_dict = json.load(file)
     action,expression,expression_weight = emotion_to_action(emotion,charaname,emotions_dict)
 
     if detect_language(user_question) == "Chinese":
