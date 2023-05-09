@@ -10,7 +10,7 @@ def MD5(str):
     return token
 
 def translate_baidu(APPID, key, q):
-    salt = '143566999992'
+    salt = '143566028832'
     original_langrage = 'zh'
     to_langrage = 'jp'
 
