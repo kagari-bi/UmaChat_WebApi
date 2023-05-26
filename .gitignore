@@ -4,6 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # 忽略文件/文件夹
+__pycache__
+dist
 models
 .ipynb_checkpoints
 config.ini
