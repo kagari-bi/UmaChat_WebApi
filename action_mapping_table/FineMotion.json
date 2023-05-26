@@ -5,6 +5,9 @@
   "感兴趣": {
     "动作名称": "anm_eve_chr1022_00_mot01_loop"
   },
+  "再见": {
+    "动作名称": "anm_eve_type00_byebye11_loop"
+  },
   "提建议": {
     "动作名称": "anm_eve_type00_advice01_01_loop"
   },
@@ -40,9 +43,6 @@
     "动作名称": "anm_eve_type00_fight11_loop",
     "形态键": "IkariB",
     "权重": 0.7
-  },
-  "充满斗志": {
-    "动作名称": "anm_eve_type00_gatts09_loop"
   },
   "点赞": {
     "动作名称": "anm_eve_type00_good03_loop",
@@ -145,9 +145,6 @@
     "动作名称": "anm_eve_type00_muneate11_01_loop",
     "形态键": "CloseA",
     "权重": 1.0
-  },
-  "展示肌肉": {
-    "动作名称": "anm_eve_type00_muscle01_loop"
   },
   "禁止": {
     "动作名称": "anm_eve_type00_ng02_loop",
