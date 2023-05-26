@@ -8,7 +8,7 @@ VITS推理部分基于https://github.com/Plachtaa/VITS-fast-fine-tuning ，非�
 ```
 git clone https://github.com/kagari-bi/UmaChat_WebApi.git
 ```
-2.在该项目的根目录下创建一个名为models的目录，从我的[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main)下载你想要的模型，并将其解压到models目录中
+2.在该项目的根目录下创建一个名为models的目录，从我的[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main)下载你想要的模型，并将其按照原有目录结构放到models目录中
 
 3.打开config_backup.ini，输入你的OpenAI账户的api_key、百度账户的appid和key（用于将Chatgpt的回应翻译成日语，然后使用vits进行推理），以及代理地址等。保存并关闭，然后将其重命名为config.ini
 
