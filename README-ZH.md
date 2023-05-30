@@ -24,7 +24,7 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 # 进阶用法
 虽然我预期是让此项目最终能够实现与全马娘的对话，但时间上无法保证。因此，你可以为自己喜欢的马娘在action_mapping_table、prompt这两个文件夹中自己追加必要的文件。并且训练对应马娘的vits模型，放到models里面。
 
-具体做法可以参见视频教程：https://www.bilibili.com/video/BV1mz4y1B7oJ。
+具体做法可以参见视频教程：https://www.bilibili.com/video/BV1mz4y1B7oJ
 
 # 目前的缺陷
 ### 情感识别相关
