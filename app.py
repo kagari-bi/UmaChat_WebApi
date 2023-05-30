@@ -22,10 +22,14 @@ openai.api_key = OPENAI_API_KEY
 APPID = config.get('baidu', 'appid')
 key = config.get('baidu', 'key')
 
-proxy = config.get('proxy', 'http_proxy')
-os.environ['http_proxy'] = proxy
-os.environ['https_proxy'] = config.get('proxy', 'https_proxy')
-os.environ['ALL_PROXY'] = config.get('proxy', 'all_proxy')
+# 检查代理设置是否存在并设置代理
+if config.has_section('proxy'):
+    if config.has_option('proxy', 'http_proxy'):
+        os.environ['http_proxy'] = config.get('proxy', 'http_proxy')
+    if config.has_option('proxy', 'https_proxy'):
+        os.environ['https_proxy'] = config.get('proxy', 'https_proxy')
+    if config.has_option('proxy', 'all_proxy'):
+        os.environ['ALL_PROXY'] = config.get('proxy', 'all_proxy')
 
 # 设置参数
 model_path = "models/Riceshower/G_latest.pth"
@@ -167,13 +171,12 @@ async def chat(data: InputData):
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["中文自称"], appellation_dict[charaname]["日文自称"])
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["对玩家的中文称呼"], appellation_dict[charaname]["对玩家的日文称呼"])
             assistant_answer = assistant_answer.replace(appellation_dict[charaname]["中文的打招呼方式"], appellation_dict[charaname]["日文的打招呼方式"])
-            assistant_answer = assistant_answer.replace("？","[？]")
-            assistant_answer = translate_baidu(APPID, key, assistant_answer)
-            assistant_answer = assistant_answer.replace("[？]","？")
         else:
-            assistant_answer = assistant_answer.replace("？","[？]")
-            assistant_answer = translate_baidu(APPID, key, assistant_answer)
-            assistant_answer = assistant_answer.replace("[？]","？")
+            pass
+        assistant_answer = assistant_answer.replace("？","[？]")
+        assistant_answer = translate_baidu(APPID, key, assistant_answer)
+        assistant_answer = assistant_answer.replace("[？]","？")
+        assistant_answer = assistant_answer.replace("。","。 ")
         audio_response = assistant_answer
     else:
         text_response = assistant_answer
