@@ -10,7 +10,7 @@ git clone https://github.com/kagari-bi/UmaChat_WebApi.git
 ```
 2.在该项目的根目录下创建一个名为models的目录，从我的[HuggingFace仓库](https://huggingface.co/gouhuo/Umamusume_Vits_models/tree/main)下载你想要的模型，并将其按照原有目录结构放到models目录中
 
-3.打开config_backup.ini，输入你的OpenAI账户的api_key、百度账户的appid和key（用于将Chatgpt的回应翻译成日语，然后使用vits进行推理），以及代理地址等。保存并关闭，然后将其重命名为config.ini
+3.打开config_backup.ini，输入你的OpenAI账户的api_key、百度账户的appid和key（用于将Chatgpt的回应翻译成日语，然后使用vits进行推理），以及梯子的代理地址等。保存并关闭，然后将其重命名为config.ini
 
 4.安装依赖项
 ```
@@ -54,4 +54,4 @@ uvicorn app:app --reload --host 0.0.0.0 --port 8000
 2. 没了
 
 # 关于代理地址
-代理地址的形式形如http://127.0.0.1:7890 ,具体的查看方法根据使用软件的不同也有所不同，可以尝试搜索相关关键词，看网上能不能找到答案
+代理地址的形式形如http://127.0.0.1:7890 ,具体的查看方法根据使用软件的不同也有所不同
